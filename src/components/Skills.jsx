@@ -6,7 +6,7 @@ export const Skills = () => {
     const devSkills = [
         {
             name: 'JavaScript',
-            logoSrc: 'src/assets/skills/js-logo.svg',
+            logoSrc: 'assets/skills/js-logo.svg',
             style: {
                 skill: {
                     width: '75%',
@@ -20,7 +20,7 @@ export const Skills = () => {
         },
         {
             name: 'React',
-            logoSrc: 'src/assets/skills/react-logo.svg',
+            logoSrc: 'assets/skills/react-logo.svg',
             style: {
                 skill: {
                     width: '60%',
@@ -34,7 +34,7 @@ export const Skills = () => {
         },
         {
             name: 'Redux',
-            logoSrc: 'src/assets/skills/redux-logo.svg',
+            logoSrc: 'assets/skills/redux-logo.svg',
             style: {
                 skill: {
                     width: '50%',
@@ -48,7 +48,7 @@ export const Skills = () => {
         },
         {
             name: 'NodeJS',
-            logoSrc: 'src/assets/skills/nodejs-logo.svg',
+            logoSrc: 'assets/skills/nodejs-logo.svg',
             style: {
                 skill: {
                     width: '25%',
@@ -62,7 +62,7 @@ export const Skills = () => {
         },
         {
             name: 'HTML',
-            logoSrc: 'src/assets/skills/html-logo.svg',
+            logoSrc: 'assets/skills/html-logo.svg',
             style: {
                 skill: {
                     width: '90%',
@@ -76,7 +76,7 @@ export const Skills = () => {
         },
         {
             name: 'CSS',
-            logoSrc: 'src/assets/skills/css-logo.svg',
+            logoSrc: 'assets/skills/css-logo.svg',
             style: {
                 skill: {
                     width: '90%',

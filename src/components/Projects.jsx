@@ -5,66 +5,66 @@ export const Projects = () => {
     const projects = [
         {
             name: 'Tax Bill - Web App (80% ready)',
-            src:'src/assets/projects/cfdi-webapp.jpg',
-            description:`The biggest project so far. This app enables the user to create Tax Bills (mexican government requirement for every sell). 
-            It also allows to save the customer and products records, creates personalized PDF files. Currently deployed on Heroku and the uses MongoDB.
-            The next step is to embed the app in the main ecommerce platforms to save tons of sellers' time and effort to register and tax bill their sells according to government requirements`,
+            src:'assets/projects/cfdi-webapp.jpg',
+            description:`Largest project to date. Sales management software that creates (Mexico’s) government required Tax Bills. Records customer and product info. Uses MongoDB, currently deployed in Heroku. 
+            Next steps: Embed in ecommerce platforms to ease headaches at the month’s closing. 
+            `,
             tools:'HTML, CSS, JavaSript, React, Node, Redux.',
             link:'https://cfdis.herokuapp.com/'
         },
         {
             name: 'Review App - Web App',
-            src:'src/assets/projects/review-webapp.jpg',
-            description:'App created in Google Apps Scripts to get, store and show customers review for purchases in Goyito online store. The database is built on a google spreadsheat (very easy to manage and mantain).',
+            src:'assets/projects/review-webapp.jpg',
+            description:'Built in Google Scripts App that records, gets, and shows customer reviews in the Goyito online store. Records data in a google spreadsheat (easy to manage and mantain).',
             tools:'HTML, CSS, JavaSript, Google Apps Scripts',
             link:'https://goyito.mx/reviews/index.html'
         },
         {
             name: 'Goyito - Ecommerce',
-            src:'src/assets/projects/goyito-ecommerce.jpg',
-            description:`Ecommerce built using "Shopify Buy Button". It doesn't use a template, the products are embedded in the website.`,
+            src:'assets/projects/goyito-ecommerce.jpg',
+            description:`(My baby!) Ecommerce site built using "Shopify Buy Button". Products are embedded on the website (no template used)`,
             tools:'HTML, CSS, JavaSript.',
             link:'https://goyito.mx/'
         },
         {
             name: 'Puffi Baby - Ecommerce',
-            src:'src/assets/projects/puffi-ecommerce.jpg',
-            description:'Ecommerce created on Shopify platform. The "challenge" here was to personalize the template for the client needs.',
+            src:'assets/projects/puffi-ecommerce.jpg',
+            description:'Ecommerce site on Shopify. Template was personalized to meet the client’s (particular :) needs.',
             tools:'HTML, CSS, JavaSript, Liquid.',
             link:'https://puffibaby.com/'
         },
         {
             name: 'MJ Interiores - Website',
-            src:'src/assets/projects/mj-website.jpg',
-            description:'Website built for my ex-girlfriend (currently my wife). It contains a simple blog with filters by tags.',
+            src:'assets/projects/mj-website.jpg',
+            description:'Website built for my ex-girlfriend (currently my wife). Contains a stream-lined blog with filters and tags.',
             tools:'HTML, CSS, JavaSript.',
             link:'https://mjinteriores.com/'
         },
         {
             name: 'GC Ingenieria - Website',
-            src:'src/assets/projects/gc-website.jpg',
-            description:'Website redisign from an existing one.',
+            src:'assets/projects/gc-website.jpg',
+            description:'Website redisign for client that rocks in software development (Delphi) and eagle-sight for detail.',
             tools:'HTML, CSS, JavaSript.',
             link:'https://gcingenieria.com/'
         },
         {
             name: 'Nanolang - Website',
-            src:'src/assets/projects/nanolang-website.jpg',
-            description:'Local business website. It inlcudes a simple form live quoter.',
+            src:'assets/projects/nanolang-website.jpg',
+            description:'Website for local business. Offers live quotes. ',
             tools:'HTML, CSS, JavaSript.',
             link:'https://nanolang.com/servicios_mantenimiento_puebla.html'
         },
         {
             name: 'AFRUMEX - Website',
-            src:'src/assets/projects/afrumex-website.jpg',
-            description:"One of my very first websites. Based on a third's template.",
+            src:'assets/projects/afrumex-website.jpg',
+            description:"My first born! Goyito’s parent company. One of my very first websites (2014). Based on a third-party template.",
             tools:'HTML, CSS, JavaSript.',
             link:'https://afrumex.com/fruit.html'
         },
         {
             name: 'Cantona Rustic - Website',
-            src:'src/assets/projects/cantona-website.jpg',
-            description:'Urgent proyect built in few hours. ',
+            src:'assets/projects/cantona-website.jpg',
+            description:'Urgent proyect built in a few hours for my favorite uncle.',
             tools:'HTML, CSS, JavaSript.',
             link:'https://cantonarustic.com/'
         },
