@@ -13,7 +13,7 @@ export const Profile = () => {
                 <b>Email:</b> teocorona_90@hotmail.com<br />
                 <b>Languages:</b>	Spanish (native), English (intermediate),<br /> Portuguese (intermediate), Italian (basic+)<br />
       
-                <a href='src/assets/cv/teo-corona-cv-2022.pdf' ><button className="btn">Download CV</button></a>
+                <a href='assets/cv/teo-corona-cv-2022.pdf' ><button className="btn">Download CV</button></a>
 
             </p>
         </div>

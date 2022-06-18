@@ -1,7 +1,7 @@
 import { Profile } from "./components/Profile"
 import { Projects } from "./components/Projects"
 import { Skills } from "./components/Skills"
-import { TopBar } from "./components/TopBar"
+// import { TopBar } from "./components/TopBar"
 
 export const PortfolioApp = () => {
   return (
@@ -14,6 +14,7 @@ export const PortfolioApp = () => {
       <Profile/>
       <Skills />
       <Projects />
+      <p className="text-end"><i>Last updated June 2022</i></p>
     </div>
   )
 }

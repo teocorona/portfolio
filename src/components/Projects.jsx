@@ -43,7 +43,7 @@ export const Projects = () => {
         {
             name: 'GC Ingenieria - Website',
             src:'assets/projects/gc-website.jpg',
-            description:'Website redisign for client that rocks in software development (Delphi) and eagle-sight for detail.',
+            description:'Website redisign for client that rocks in software development (Delphi) and has an eagle-sight for detail.',
             tools:'HTML, CSS, JavaSript.',
             link:'https://gcingenieria.com/'
         },

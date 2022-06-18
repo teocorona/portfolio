@@ -14,19 +14,19 @@ body{
 .title{ 
   color:white;
   font-family: 'Kdam Thmor Pro', sans-serif;
-  font-size: 6rem;
+  font-size: 5rem;
   font-weight: bolder;
 }
 .legend{
   color: rgb(68, 146, 115);
   font-family: 'Courier New', Courier, monospace;
-  font-size: 4rem;
+  font-size: 3rem;
   margin-left: 10%;
 }
 .subtitle{
   padding-top: 50px;
   font-family: 'Kdam Thmor Pro', sans-serif;
-  font-size: 3rem;
+  font-size: 2.5rem;
   margin-left: 3%;
 }
 
@@ -56,7 +56,7 @@ body{
   box-shadow: 0 6px 8px 0 rgba(0, 0, 0, 0.8);
   max-width: 1000px;
   float: none;
-  margin: 50px auto;
+  margin: 35px auto;
   text-align: justify;
 }
 .card-title {
