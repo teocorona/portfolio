@@ -14,7 +14,7 @@ export const PortfolioApp = () => {
       <Profile/>
       <Skills />
       <Projects />
-      <p className="text-end"><i>Last updated June 2022</i></p>
+      <p className="text-end"><i>Last updated June 2023</i></p>
     </div>
   )
 }
