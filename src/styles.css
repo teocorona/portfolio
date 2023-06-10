@@ -129,6 +129,10 @@ li::marker {
   color: white;
 }
 
+img {
+  max-height: 500px;
+  object-fit: contain;
+}
 
 @keyframes blinker {
   50% {
@@ -167,6 +171,9 @@ li::marker {
   .skill-list {
     flex-direction: column;
     gap: 0px;
+  }
+  img {
+    max-height: 300px;
   }
 
 }

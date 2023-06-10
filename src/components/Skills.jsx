@@ -18,8 +18,8 @@ export const Skills = () => {
                 <li>React</li>
                 <li>React Native</li>
                 <li>Nextjs</li>
-                <li>Nodejs</li>
                 <li>Redux</li>
+                <li>Nodejs</li>
                 <li>Express</li>
                 <li>Tailwind</li>
               </ul>
