@@ -4,13 +4,41 @@ import { Project } from "./Project"
 export const Projects = () => {
     const projects = [
         {
-            name: 'Tax Bill - Web App (80% ready)',
-            src:'assets/projects/cfdi-webapp.jpg',
-            description:`Largest project to date. Sales management software that creates (Mexico’s) government required Tax Bills. Records customer and product info. Uses MongoDB, currently deployed in Heroku. 
-            Next steps: Embed in ecommerce platforms to ease headaches at the month’s closing. 
+            name: 'Mexican Tax Invoice - Shopify App (Work in Progress)',
+            src:'assets/projects/shopify-factura.png',
+            description:`A productivity app that allows the merchant to create (Mexico’s) government required Tax Bills (invoice). Reads merchant order, migrate products with 
+            necesary data, config client and customer data.
             `,
-            tools:'HTML, CSS, JavaSript, React, Node, Redux.',
-            link:'https://cfdis.herokuapp.com/'
+            tools:'Nextjs, Openssl, Prisma (MySQL), Planetscale, Cloudinary, Vercel.',
+        },
+        {
+            name: 'Goyito Shop - Ecommerce',
+            src:'assets/projects/goyito-shop.png',
+            description:`A COMPLETE ecommerce store. Features: collection pages, individual product pages, search and filter products, cart, 
+            shipping and checkout forms, PayPal payments, session management and dashboard for customers and mrechant, login with custom, google or github account, 
+            CRUD for products and orders, and more.`,
+            tools:'Typescript, Nexjs, NextAuthjs, JWT, SWR, Docker, MaterialUI, Paypal',
+        },
+        {
+          name: 'Tax Bill - Web App (80% ready)',
+          src:'assets/projects/cfdi-webapp.jpg',
+          description:`Largest project to date. Sales management software that creates (Mexico’s) government required Tax Bills. Records customer and product info. Uses MongoDB, currently deployed in Heroku. 
+          Next steps: Embed in ecommerce platforms to ease headaches at the month’s closing. UPDATE: This project maybe will never see the light, I decided to make it just as an embedded app in Shopify.`,
+          tools:'HTML, CSS, JavaSript, React, Node, Redux.',
+          link:'https://cfdis.herokuapp.com/'
+        },
+        {
+            name: 'XML to PDF - Chrome extension',
+            src:'assets/projects/calculator.png',
+            description:`Easy to use chrome extension that accepts an XML as input to create a printable version of a mexican invoice as a PDF document. 
+            Currently not available in chrome extesion store, just family and friends users. OPEN SOURCE in my GitHub`,
+            tools:'Typescript, Ract, Nodejs',
+        },
+        {
+            name: 'Calculator - Mobile App',
+            src:'assets/projects/chrome-extension.jpg',
+            description:`My first mobile App`,
+            tools:'Typescript, Ract Native',
         },
         {
             name: 'Review App - Web App',
@@ -71,7 +99,8 @@ export const Projects = () => {
     ]
     return (
         <div className="row mb-5">
-            <h2 className="subtitle">Projects</h2>
+            <h2 className="subtitle">Projects <small> &nbsp;(some personal and side-projects)</small></h2>
+            <h4>There are third party (much larger) projects I can't share.</h4>
             {
                 projects.map((p, i) => (
                     <Project

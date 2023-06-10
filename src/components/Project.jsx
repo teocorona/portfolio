@@ -13,9 +13,11 @@ export const Project = ({ title, logoSrc, description, tools, link }) => {
                         <p className="card-text">{description}</p>
                         <p className="card-text">{tools}</p>
                     </div>
+                    {link ? (
                     <div className="card-body">
                         <a href={link} ><button className="btn">Visit Project</button></a>
                     </div>
+                    ) : null}
                 </div>
             {/* </a> */}
         </div>
