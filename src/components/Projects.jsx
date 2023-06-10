@@ -104,8 +104,8 @@ export const Projects = () => {
   ]
   return (
     <div className="row mb-5">
-      <h2 className="subtitle">Projects <small> &nbsp;(some personal and side-projects)</small></h2>
-      <h4>There are third party (much larger) projects I can't share.</h4>
+      <h2 className="subtitle">Projects </h2>
+      <h5><small> &nbsp;(some personal and side-projects, much larger third party projects are protected by NDAs)</small></h5>
       {
         projects.map((p, i) => (
           <Project
